@@ -1,0 +1,1 @@
+# aouto_lottery
