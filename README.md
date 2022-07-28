@@ -80,8 +80,8 @@ browser.close()
 - 検証ツールに表示された箇所にカーソルを合わせ、"右クリック">>"コピー">>"xpathをコピー"を選択します。
 - 詳しくは[こちら]()を参照ください。
 ### selenium4での仕様([参照](https://stackoverflow.com/questions/72754651/attributeerror-webdriver-object-has-no-attribute-find-element-by-xpath))
-### 完成したコードを自動で実行させる([参照](https://qiita.com/takatoshi0905/items/0a4abf3e1ecd483db911))
 - find_element_by_id('コピーしたxpath')ではなく、find_element("xpath", 'コピーしたxpath')と記述する。
+### 完成したコードを自動で実行させる([参照](https://qiita.com/takatoshi0905/items/0a4abf3e1ecd483db911))
 - 使用したのはAutomator.appです。
 - まず、Automator.appを起動させ、"新規書類">>"アプリケーション"を選択します。
 <img width="1112" alt="スクリーンショット 2022-07-28 20 23 52" src="https://user-images.githubusercontent.com/82105285/181493782-6a1207e3-2341-4d3f-90b2-63c13fdb2de7.png">
